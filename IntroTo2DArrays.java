@@ -54,7 +54,7 @@ public class IntroTo2DArrays{
     {
       for(int row = 0; row < twoDee.length; row++)
       {
-        colSum = colSum + twoDee[col][row];
+        colSum = colSum + twoDee[row][col];
       }
       //This spot here represents the completion of one row
       System.out.println("Col " + col + ": " + colSum);
